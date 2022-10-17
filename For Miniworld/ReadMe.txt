@@ -36,3 +36,17 @@ tables.<option>(<optionforoption>)
         chatallentries(<tablename>)  : chat all entries in the current table in <tablename>
     </option>
 ======================================================
+
+encode================================================
+encode.<typeforencode>(<optionofthattype>)
+    <typeforencode>
+        base64(<code>)               : return the encode string for base64 with the code in <code>
+    </typeforencode>
+======================================================
+
+decode================================================
+decode.<typefordecode>(<optionofthattype>)
+    <typefordecode>
+        base64(<encodecode>)         : return the decode string for base64 with the encode code in <encodecode>
+    </typefordecode>
+======================================================
