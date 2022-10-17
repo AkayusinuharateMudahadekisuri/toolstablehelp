@@ -24,6 +24,7 @@ text.<option>(<optionforoption>)
                 1: gentle flashing
                 2: strong flashing
             </numberoftype>
+        run(<codeneedtorun>)                              : run the lua code in <codeneedtorun>
     </option>
 ======================================================
 

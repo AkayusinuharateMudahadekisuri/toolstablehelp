@@ -13,6 +13,7 @@ local text={
     colorsendchat=function(str, hexcolorcode, target)Chat:sendSystemMsg("#c"..hexcolorcode..str, target)end,
     color=function(hexcolorcode)return "#c"..hexcolorcode end,
     effect=function(effect)if effect == 0 then return "#n" elseif effect == 1 then return "#b" elseif effect == 2 then return "#b2" elseif effect == 3 then return "#L" else errcall.adderr("#cFF0000AkayTools debug : in command text.effect(<numberofeffect>), the <numberofeffect> is invalid number or differents.") end end,
+    run=function(codeneedtorun)return LoadLuaScript(codeneedtorun)end,
 }
 local tables={
     printallentries=function(tab)for count, item in pairs(tab) do print(item)end end,
