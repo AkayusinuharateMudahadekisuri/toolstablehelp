@@ -31,9 +31,10 @@ text.<option>(<optionforoption>)
 tables================================================
 tables.<option>(<optionforoption>)
     <option>
-        printallentries(<tablename>) : print all entries in the current table in <tablename>
-        clearallentries(<tablename>) : clear all entries in the current table in <tablename>
-        chatallentries(<tablename>)  : chat all entries in the current table in <tablename>
+        printall(<tablename>) : print all entries in the current table in <tablename>
+        clearall(<tablename>) : clear all entries in the current table in <tablename>
+        chatall(<tablename>)  : chat all entries in the current table in <tablename>
+        len(<tablename>)      : get <tablename> length
     </option>
 ======================================================
 
